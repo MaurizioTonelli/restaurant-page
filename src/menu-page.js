@@ -3,19 +3,19 @@ import {renderContent, createHtmlElement, pageArticle} from './page-loader';
 let chocolateTypes = {
     white: {
         title: 'White Chocolate',
-        src: '../dist/img/white_chocolate.jpg',
+        src: '../img/white_chocolate.jpg',
         text: 'Lorem ipsum dolor sit amet',
         price: '$15'
     },
     dark: {
         title: 'Dark Chocolate',
-        src: '../dist/img/dark_chocolate.jpg',
+        src: '../img/dark_chocolate.jpg',
         text: 'Lorem ipsum dolor sit amet',
         price: '$25'
     },
     milk: {
         title: 'Milk Chocolate',
-        src: '../dist/img/milk_chocolate.jpg',
+        src: '../img/milk_chocolate.jpg',
         text: 'Lorem ipsum dolor sit amet',
         price: '$5'
     }
