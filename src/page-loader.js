@@ -2,6 +2,10 @@ function renderContent(content){
     let $contentDiv = document.querySelector('#content');
     $contentDiv.appendChild(content);
 }
+function clearContent(){
+    let $contentDiv = document.querySelector('#content');
+    $contentDiv.innerHTML = '';
+}
 function createHtmlElement(element, content){
     let $element = document.createElement(element);
     if(content)
@@ -16,4 +20,4 @@ function pageArticle(){
     return $articleWrapper;
 }
 
-export {renderContent, createHtmlElement, pageArticle};
+export {renderContent, createHtmlElement, pageArticle, clearContent};

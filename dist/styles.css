@@ -58,6 +58,7 @@ article{
     width: 100%;
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
 }
 .page-title{
     color:#c59d5f;
@@ -72,6 +73,9 @@ article{
     height: 80%;
     width: 100%;
     border-bottom: 4px solid #c59d5f;
+    overflow-y: auto;
+}
+.home-canvas{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,6 +110,32 @@ article{
     opacity: 0.8;
     cursor: pointer;
 }
+.main::-webkit-scrollbar{
+    width: .5em;
+}
+.main::-webkit-scrollbar-thumb{
+    background-color: #c59c5f70;
+}
 .transparent{
-    opacity: 0;
+    background-color: rgba(54, 22, 22, 0.507);
+}
+.chocolate-card{
+    border: 4px solid #c59c5f70;
+    background-color: rgba(141, 132, 132, 0.623);
+    padding: 20px;
+    margin: 20px;
+}
+.chocolate-card h3{
+    font-size: 23px;
+    color: rgb(22, 4, 4);
+}
+.chocolate-card img{
+    max-height: 300px;
+    margin: 20px;
+    border: 3px solid #c58d5f;
+}
+.chocolate-card .price{
+    color: #c58d5f;
+    font-weight: bold;
+    font-size: 20px;
 }
